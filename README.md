@@ -24,7 +24,7 @@ We highly recommend you to equip a GPU card. To select gpu id, please use
 	export CUDA_VISIBLE_DEVICES=id
 
 ## Caption model
-We have four differt model to generate captions. EsenNIC is a basic model for our global local feature fusion method, MultiEsenNIC use Multi Attention, and MaxEsenNIC use Maxout Network to capture most important feature of multiple attention map. For different model, please look at EsenNIC, MultiEsenNIC and MaxEsenNIC, training and testing command for eash caption model is the same. For simplicity, we use EsenNIC as an example:
+We have three different model to generate captions. EsenNIC is a basic model for our global local feature fusion method, MultiEsenNIC use Multi Attention, and MaxEsenNIC use Maxout Network to capture most important feature of multiple attention map. For different model, please look at EsenNIC, MultiEsenNIC and MaxEsenNIC, training and testing command for eash caption model is the same. For simplicity, we use EsenNIC as an example:
 
 	cd EsenNIC
 
